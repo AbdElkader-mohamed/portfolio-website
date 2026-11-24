@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AbdElkader Muhammad Mansor | Frontend Developer</title>
+  <meta name="description" content="Portfolio of AbdElkader Muhammad Mansor, a frontend developer specializing in Vue 3, Nuxt.js and TypeScript." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a class="nav__brand" href="#top">AM<span>.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav__cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container">
+      <p class="hero__greeting">Hi, my name is</p>
+      <h1 class="hero__name">AbdElkader Muhammad Mansor.</h1>
+      <h2 class="hero__tagline">I build interfaces people enjoy using.</h2>
+      <p class="hero__summary">
+        Frontend Developer with 3+ years of experience building responsive web applications,
+        focused on <strong>Vue 3</strong>, <strong>Nuxt.js</strong>, <strong>TypeScript</strong> and
+        <strong>Pinia</strong>, from reusable component systems to Arabic/English interfaces.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#projects">View my work</a>
+        <a class="btn btn--ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section container" id="about">
+      <h3 class="section__title"><span class="section__num">01.</span> About me</h3>
+      <div class="about">
+        <div class="about__text">
+          <p>
+            I'm a frontend developer based in Cairo, Egypt. I currently work at
+            <strong>Bevatel</strong>, where I build interfaces for a business communication
+            platform (conversation views, WhatsApp Business templates, and call-center
+            dashboards) using Vue 3, TypeScript and Pinia.
+          </p>
+          <p>
+            Before that, I spent two years at <strong>Ocoda</strong> shipping e-commerce and
+            company websites: booking flows, product catalogs, checkout interfaces, and
+            bilingual Arabic/English experiences optimized for performance and SEO.
+          </p>
+          <p>
+            I care about clean component architecture, state management done right, and
+            interfaces that feel fast on any device.
+          </p>
+        </div>
+        <ul class="about__facts">
+          <li><span>Experience</span>3+ years</li>
+          <li><span>Focus</span>Vue 3 · Nuxt.js · TypeScript</li>
+          <li><span>Based in</span>Cairo, Egypt</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section container" id="skills">
+      <h3 class="section__title"><span class="section__num">02.</span> Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Core</h4>
+          <ul>
+            <li>JavaScript (ES6+)</li>
+            <li>TypeScript</li>
+            <li>HTML5</li>
+            <li>CSS3 · Sass/SCSS</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Frameworks &amp; State</h4>
+          <ul>
+            <li>Vue.js / Vue 3</li>
+            <li>Nuxt.js</li>
+            <li>Pinia</li>
+            <li>React.js · Next.js</li>
+            <li>Redux Toolkit</li>
+            <li>jQuery</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>UI &amp; Styling</h4>
+          <ul>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap</li>
+            <li>Vuetify · PrimeVue · Nuxt UI</li>
+            <li>Responsive Web Design</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Tools &amp; APIs</h4>
+          <ul>
+            <li>RESTful APIs · WebSockets</li>
+            <li>Storybook</li>
+            <li>Git · GitLab</li>
+            <li>Vite · Webpack · Gulp</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section container" id="experience">
+      <h3 class="section__title"><span class="section__num">03.</span> Experience</h3>
+      <div class="timeline">
+        <article class="job">
+          <div class="job__header">
+            <h4>Mid-Level Frontend Developer <span class="job__at">@ Bevatel</span></h4>
+            <span class="job__period">Jul 2025 - Present</span>
+          </div>
+          <ul class="job__points">
+            <li>Build and maintain a business communication platform with Vue 3, TypeScript, Pinia and the Composition API.</li>
+            <li>Develop conversation interfaces for contacts, segments, channels and messages, including WhatsApp Business templates with variables and live previews.</li>
+            <li>Build Call Center and Call Log interfaces: call status, sentiment analysis, transcripts and audio playback.</li>
+            <li>Integrate REST APIs with async fetching, pagination and filtering; maintain reusable components and Storybook stories.</li>
+          </ul>
+        </article>
+        <article class="job">
+          <div class="job__header">
+            <h4>Frontend Developer <span class="job__at">@ Ocoda</span></h4>
+            <span class="job__period">Jul 2023 - Jul 2025</span>
+          </div>
+          <ul class="job__points">
+            <li><strong>Forsan</strong> (multi-vendor equestrian platform): responsive booking, listings, catalogs and event modules with backend integration.</li>
+            <li><strong>Allivin Store</strong> (e-commerce): reusable components, product pages, cart and checkout interfaces with payment workflow support.</li>
+            <li><strong>Bevatel website</strong>: Vue/Nuxt components, animations, bilingual Arabic/English content, performance and SEO optimization.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section container" id="projects">
+      <h3 class="section__title"><span class="section__num">04.</span> Projects</h3>
+      <h4 class="projects-sub">Personal projects <span>public code on my GitHub</span></h4>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></span>
+            <a class="project-card__link" href="https://github.com/AbdElkader-mohamed/Bod-chat" target="_blank" rel="noopener" aria-label="View Bod-chat on GitHub">↗</a>
+          </div>
+          <h4>Bod-chat</h4>
+          <p>
+            A chat application interface built with React 18, Vite and MUI. Light/dark theme
+            switching implemented with a custom settings context, organized routes, layouts
+            and a componentized conversation view. Frontend only, with sample conversation
+            data and no backend.
+          </p>
+          <ul class="project-card__tech"><li>React 18</li><li>Vite</li><li>MUI</li><li>SCSS</li></ul>
+        </article>
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></span>
+            <a class="project-card__link" href="https://github.com/AbdElkader-mohamed/To-Do-Tasks-JavaScript" target="_blank" rel="noopener" aria-label="View To-Do Tasks on GitHub">↗</a>
+          </div>
+          <h4>To-Do Tasks</h4>
+          <p>
+            A task manager built with vanilla JavaScript, HTML and CSS, with a live demo
+            deployed on GitHub Pages.
+          </p>
+          <ul class="project-card__tech"><li>JavaScript</li><li>HTML5</li><li>CSS3</li></ul>
+        </article>
+      </div>
+      <h4 class="projects-sub">Professional work <span>employer and client projects, source code is private</span></h4>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></span>
+          </div>
+          <h4>Forsan: Equestrian Platform</h4>
+          <p>
+            Multi-vendor equestrian marketplace: booking flows, horse listings, catalogs, blogs
+            and stable/rider/event modules, built at Ocoda with backend service integration.
+          </p>
+          <ul class="project-card__tech"><li>JavaScript</li><li>HTML5</li><li>CSS3</li><li>REST APIs</li></ul>
+        </article>
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></span>
+          </div>
+          <h4>Allivin Store</h4>
+          <p>
+            E-commerce frontend with reusable components, product listing and detail pages,
+            shopping and checkout interfaces, and payment workflow integration.
+          </p>
+          <ul class="project-card__tech"><li>JavaScript</li><li>Vue.js</li><li>REST APIs</li></ul>
+        </article>
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></span>
+          </div>
+          <h4>Company Websites</h4>
+          <p>
+            Freelance and agency company-profile sites for Azm Al-Watan and MEFIC Capital:
+            responsive, cross-browser pages covering services, sectors, news and insights.
+          </p>
+          <ul class="project-card__tech"><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul>
+        </article>
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></span>
+          </div>
+          <h4>Bevatel Business Chat</h4>
+          <p>
+            Interfaces for a business communication platform: conversation views, WhatsApp
+            Business template composition, and call-center dashboards with sentiment and
+            transcripts.
+          </p>
+          <ul class="project-card__tech"><li>Vue 3</li><li>TypeScript</li><li>Pinia</li><li>Storybook</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section container" id="education">
+      <h3 class="section__title"><span class="section__num">05.</span> Education</h3>
+      <div class="education">
+        <h4>Bachelor's Degree in Management Information Systems (MIS)</h4>
+        <p>Higher Institute for Specific Studies, El Matareya · Class of 2019</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--contact container" id="contact">
+      <h3 class="section__title section__title--center"><span class="section__num">06.</span> Get in touch</h3>
+      <p class="contact__text">
+        I'm open to frontend opportunities, especially Vue/Nuxt roles. Whether you have a
+        question or just want to say hi, my inbox is always open.
+      </p>
+      <div class="contact__actions">
+        <a class="btn btn--primary" href="mailto:abdelkader.dev512@gmail.com">Say hello</a>
+      </div>
+      <ul class="contact__socials">
+        <li><a href="https://github.com/AbdElkader-mohamed" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="mailto:abdelkader.dev512@gmail.com">abdelkader.dev512@gmail.com</a></li>
+        <li><a href="tel:+201001863911">+20 100 018 3911</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 AbdElkader Muhammad Mansor</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
